@@ -8,7 +8,16 @@ authors = [
 ]
 requires-python = ">=3.10"
 dependencies = [
+    "matplotlib>=3.10.7",
+    "nibabel>=5.3.2",
+    "pandas>=2.3.3",
     "pipelinecore",
+    "pydicom>=2.4.3",
+    "pydicom-seg>=0.4.1",
+    "python-dotenv>=1.2.1",
+    "pyyaml==6.0",
+    "tqdm>=4.67.1",
+    "typing-extensions>=4.15.0",
 ]
 
 [project.scripts]
@@ -19,4 +28,4 @@ requires = ["uv_build>=0.8.4,<0.9.0"]
 build-backend = "uv_build"
 
 [tool.uv.sources]
-pipelinecore = { git = "https://github.com/ggggggg13289AI/pipelinecore.git" }
+pipelinecore = { path = "../pipelinecore/dist/pipelinecore-0.1.8-py3-none-any.whl" }
