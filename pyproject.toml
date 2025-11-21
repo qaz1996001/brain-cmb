@@ -1,0 +1,22 @@
+[project]
+name = "brain-cmb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "user", email = "a03440@tmu.edu.tw" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pipelinecore",
+]
+
+[project.scripts]
+brain-cmb = "brain_cmb:main"
+
+[build-system]
+requires = ["uv_build>=0.8.4,<0.9.0"]
+build-backend = "uv_build"
+
+[tool.uv.sources]
+pipelinecore = { git = "https://github.com/ggggggg13289AI/pipelinecore.git" }
