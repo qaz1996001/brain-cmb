@@ -6,7 +6,16 @@
       "Bash(gh pr create:*)",
       "mcp__serena__think_about_collected_information",
       "mcp__serena__get_current_config",
-      "mcp__serena__activate_project"
+      "mcp__serena__activate_project",
+      "Bash(mkdir:*)",
+      "Bash(git add:*)",
+      "Bash(gh pr view:*)",
+      "Bash(openspec list:*)",
+      "Bash(openspec validate:*)",
+      "Bash(openspec show:*)",
+      "Bash(python:*)",
+      "Bash(uv run python:*)",
+      "Bash(uv sync:*)"
     ],
     "deny": [],
     "ask": []
